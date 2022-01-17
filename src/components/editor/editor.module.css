@@ -1,0 +1,12 @@
+.editor-input {
+    width: 80vw;
+    height: 70vh;
+    border-radius: 1rem;
+    padding: 1.5rem;    
+}
+
+@media screen and (min-width: 992px){
+    .editor-input{
+        width: 50vw;
+    }
+}

@@ -1,0 +1,13 @@
+.previewer {
+    width: 80vw;
+    height: 100vh;
+    border-radius: 1rem;    
+    padding: 1.5rem;
+    overflow: scroll;
+    background-color: white;
+}
+
+.previewer img {
+    width: 80%;
+}
+
