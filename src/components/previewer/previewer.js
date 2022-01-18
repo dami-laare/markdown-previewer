@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './previewer.module.css';
+import './previewer.css';
 
 const Previewer = ({markdown}) => {
 
 
     return (
-        <div id='preview' className={`${classes['previewer']}`} dangerouslySetInnerHTML={{__html: markdown}}></div>
+        <div id='preview' className={`previewer`} dangerouslySetInnerHTML={{__html: markdown}}></div>
     );
 };
 

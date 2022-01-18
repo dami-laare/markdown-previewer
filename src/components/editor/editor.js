@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import classes from './editor.module.css';
+import './editor.css';
 
 const Editor = ({editorInput}) => {
     const [markdown, setMarkdown] = useState(`# Welcome to my React Markdown Previewer!
@@ -43,7 +43,7 @@ and images
 
 
     return (
-        <textarea id='editor' className={`${classes['editor-input']} mb-5`} onChange={editorChangeHandler} value={markdown}></textarea>
+        <textarea id='editor' className={`editor-input mb-5`} onChange={editorChangeHandler} value={markdown}></textarea>
     );
 };
 

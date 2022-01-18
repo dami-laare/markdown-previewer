@@ -1,6 +1,6 @@
 import react from 'react';
 import React from 'react';
-import classes from './App.module.css';
+import './App.css';
 import Editor from './components/editor/editor';
 import Previewer from './components/previewer/previewer';
 import { marked } from 'marked';
@@ -13,7 +13,7 @@ function App() {
     setMarkdown(marked(value))
   } 
   return (
-    <div className={`container-fluid ${classes['main-container']} py-5`}>
+    <div className={`container-fluid main-container py-5`}>
       <h1 className='mb-5'>MARKDOWN PREVIEWER</h1>
       <Editor editorInput={editorValue}/>
       <Previewer markdown={markdown} />
